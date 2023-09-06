@@ -4,9 +4,7 @@ export default function Slide() {
   return (
     <div className="w-full h-full bg-geekie flex flex-col gap-8 justify-center items-center">
       <GeekieLogo />
-      <h1 className="text-white text-7xl font-muli font-bold">
-        Por que usar essas techs?
-      </h1>
+      <img src="https://www.datocms-assets.com/205/1667580983-next.svg?auto=format&fit=max&w=400" className="bg-white px-4 rounded" />
     </div>
   );
 }

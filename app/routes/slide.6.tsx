@@ -5,7 +5,7 @@ export default function Slide() {
     <div className="w-full h-full bg-geekie flex flex-col gap-8 justify-center items-center">
       <GeekieLogo />
       <h1 className="text-white text-7xl font-muli font-bold">
-        Por que usar essas techs?
+        Rendering
       </h1>
     </div>
   );

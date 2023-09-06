@@ -1,15 +1,10 @@
-import { useMatches, useNavigate } from '@remix-run/react';
+import { useLocation, useNavigate } from '@remix-run/react';
 
 const usePresentation = () => {
   const navigate = useNavigate();
-  const match = useMatches();
-  const route = match.pop();
+  const { pathname } = useLocation();
 
-  if (!route) {
-    throw Error('Could not find route');
-  }
-
-  const slide = Number(route.id.split('.').pop());
+  const slide = Number(pathname.split('/').pop());
   const totalSlides = 20;
 
   const goToPrevious = () => {
