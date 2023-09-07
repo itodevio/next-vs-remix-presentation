@@ -3,7 +3,7 @@ import BlueMarksCircle from '~/assets/images/blue_marks_circle.png';
 
 export default function Slide() {
   return (
-    <div className="w-full h-full relative flex flex-col p-10 md:py-20 md:px-16">
+    <div className="w-full h-full relative overflow-hidden flex flex-col p-10 md:py-20 md:px-16">
       <h3 className="text-geekie font-muli font-bold text-3xl">Remix</h3>
       <span className="text-dark font-multi font-medium text-2xl">Routing</span>
       <div className="w-full h-full flex flex-col gap-12 justify-center items-center">
