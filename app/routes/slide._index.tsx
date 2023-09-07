@@ -1,6 +1,6 @@
 import { redirect } from "@remix-run/node"
 
 export function loader() {
-  return redirect('/slide/1');
+  return redirect('/slide/01');
 }
 
