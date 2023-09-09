@@ -5,7 +5,7 @@ const usePresentation = () => {
   const { pathname } = useLocation();
 
   const slide = Number(pathname.split('/').pop());
-  const totalSlides = 23;
+  const totalSlides = 24;
 
   const goToPrevious = () => {
     navigate(`/slide/${slide === 1 ? totalSlides : `${slide <= 10 ? '0' : ''}${slide - 1}`}`);

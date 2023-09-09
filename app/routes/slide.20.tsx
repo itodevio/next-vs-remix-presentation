@@ -1,12 +1,13 @@
-import GeekieLogo from "~/components/GeekieLogo";
+import ReactRouterImage from '~/assets/images/react_router.png';
 
 export default function Slide() {
   return (
-    <div className="w-full h-full bg-geekie flex flex-col gap-8 justify-center items-center">
-      <GeekieLogo />
-      <h1 className="text-white text-7xl font-muli font-bold">Live Coding!</h1>
-      <img src="https://media.tenor.com/rMxNr07CxSMAAAAM/cat-crazy-cat.gif" />
+    <div className="w-full h-full relative flex flex-col p-10 md:py-20 md:px-16">
+      <h3 className="text-geekie font-muli font-bold text-3xl">Remix</h3>
+      <span className="text-dark font-multi font-medium text-2xl">React Router</span>
+      <div className="w-full h-full flex gap-14 justify-center items-center">
+          <img src={ReactRouterImage} className="rounded-lg" />
+      </div>
     </div>
   );
 }
-
