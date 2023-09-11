@@ -1,4 +1,5 @@
 import RemixRoutingImage from '~/assets/images/remix_routing.png';
+import RemixRoutingImage2 from '~/assets/images/remix_routing_2.png';
 import BlueMarksCircle from '~/assets/images/blue_marks_circle.png';
 
 export default function Slide() {
@@ -7,7 +8,10 @@ export default function Slide() {
       <h3 className="text-geekie font-muli font-bold text-3xl">Remix</h3>
       <span className="text-dark font-multi font-medium text-2xl">Routing</span>
       <div className="w-full h-full flex flex-col gap-12 justify-center items-center">
-        <img src={RemixRoutingImage} className="rounded-lg" />
+        <div className="flex gap-4">
+          <img src={RemixRoutingImage} className="rounded-lg" />
+          <img src={RemixRoutingImage2} className="rounded-lg" />
+        </div>
         <div className="flex gap-4 w-1/2 justify-center ">
           <div className="bg-geekie w-4 h-4 flex-shrink-0 rounded-full mt-1.5" />
           <div className="flex flex-col gap-4">
